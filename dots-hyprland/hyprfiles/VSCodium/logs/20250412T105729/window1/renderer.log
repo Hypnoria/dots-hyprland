@@ -1,0 +1,91 @@
+2025-04-12 10:57:30.301 [info] Started local extension host with pid 2706.
+2025-04-12 10:57:33.168 [info] [perf] Render performance baseline is 21ms
+2025-04-12 11:02:20.138 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at Sg.getLineMaxColumn (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:253:144)
+    at vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2001:13639
+    at HI._computeFn (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:26325)
+    at HI._recompute (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:28296)
+    at HI.get (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:27919)
+    at HI.reportChanges (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:17032)
+    at nse.endUpdate (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:24811)
+    at HI.endUpdate (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:29207)
+    at UW.finish (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:19015)
+    at Hi (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:18372)
+2025-04-12 11:02:31.638 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at Sg.getLineMaxColumn (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:253:144)
+    at vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2001:13639
+    at HI._computeFn (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:26325)
+    at HI._recompute (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:28296)
+    at HI.get (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:27919)
+    at HI.reportChanges (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:17032)
+    at nse.endUpdate (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:24811)
+    at HI.endUpdate (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:29207)
+    at UW.finish (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:19015)
+    at Hi (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:18372)
+2025-04-12 11:02:35.127 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at Sg.getLineMaxColumn (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:253:144)
+    at vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2001:13639
+    at HI._computeFn (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:26325)
+    at HI._recompute (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:28296)
+    at HI.get (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:27919)
+    at HI.reportChanges (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:17032)
+    at nse.endUpdate (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:24811)
+    at HI.endUpdate (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:29207)
+    at UW.finish (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:19015)
+    at Hi (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:18372)
+2025-04-12 11:02:38.350 [error] <semantic> TypeScript Server Error (5.8.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:185022:11)
+    at ScriptInfo.getDefaultProject (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:185725:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:189216:36)
+    at _ProjectService.ensureDefaultProjectForFile (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:189211:103)
+    at IpcIOSession.getFileAndProjectWorker (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:194742:77)
+    at IpcIOSession.getFileAndProject (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:194728:17)
+    at IpcIOSession.getEncodedSemanticClassifications (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:193987:36)
+    at encodedSemanticClassifications-full (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:193224:43)
+    at /usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:195676:15
+    at IpcIOSession.executeWithRequestId (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:195665:14)
+    at IpcIOSession.executeCommand (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:195674:29)
+    at IpcIOSession.onMessage (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:195722:68)
+    at process.<anonymous> (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21): Error: <semantic> TypeScript Server Error (5.8.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:185022:11)
+    at ScriptInfo.getDefaultProject (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:185725:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:189216:36)
+    at _ProjectService.ensureDefaultProjectForFile (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:189211:103)
+    at IpcIOSession.getFileAndProjectWorker (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:194742:77)
+    at IpcIOSession.getFileAndProject (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:194728:17)
+    at IpcIOSession.getEncodedSemanticClassifications (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:193987:36)
+    at encodedSemanticClassifications-full (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:193224:43)
+    at /usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:195676:15
+    at IpcIOSession.executeWithRequestId (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:195665:14)
+    at IpcIOSession.executeCommand (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:195674:29)
+    at IpcIOSession.onMessage (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:195722:68)
+    at process.<anonymous> (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/usr/share/vscodium/resources/app/extensions/typescript-language-features/dist/extension.js:2:492476)
+	at y.dispatchResponse (/usr/share/vscodium/resources/app/extensions/typescript-language-features/dist/extension.js:2:486446)
+	at y.dispatchMessage (/usr/share/vscodium/resources/app/extensions/typescript-language-features/dist/extension.js:2:485244)
+	at ChildProcess.<anonymous> (/usr/share/vscodium/resources/app/extensions/typescript-language-features/dist/extension.js:2:484737)
+	at ChildProcess.emit (node:events:518:28)
+	at emit (node:internal/child_process:950:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-04-12 11:02:39.209 [error] An unknown error occurred. Please consult the log for more details.
+2025-04-12 11:02:54.781 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at Sg.getLineMaxColumn (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:253:144)
+    at vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2001:13639
+    at HI._computeFn (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:26325)
+    at HI._recompute (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:28296)
+    at HI.get (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:27919)
+    at HI.reportChanges (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:17032)
+    at nse.endUpdate (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:24811)
+    at HI.endUpdate (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:29207)
+    at UW.finish (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:19015)
+    at Hi (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:18372)

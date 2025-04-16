@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f5f5f5; /* Fundo suave */
+}
+
+/* Estilo do cabeçalho */
+.header {
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+  width: 100%;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.contact-button a {
+  padding: 10px 20px;
+  background-color: #25d366;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Estilo da seção de Contato */
+.contact-container {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 50px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+}
+
+.contact-info h1 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.contact-info p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.whatsapp-button {
+  background-color: #25D366;
+  color: white;
+  padding: 15px 25px;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button svg {
+  transition: filter 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebe5b;
+}
+
+.whatsapp-button:hover svg {
+  filter: brightness(0.9); /* Escurece o ícone ao passar o mouse */
+}

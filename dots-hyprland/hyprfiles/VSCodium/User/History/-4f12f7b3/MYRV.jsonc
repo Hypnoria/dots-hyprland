@@ -1,0 +1,112 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "type": "builtin",
+        "color": {"1": "red", "2": "red"},
+        "height": 15,
+        "width": 30,
+        "padding": {
+            "top": 5,
+            "left": 3
+        }
+    },
+    "modules": [
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[31m┌──────────────────────Hardware──────────────────────┐"
+        },
+
+        {
+            "type": "cpu",
+            "key": "│ ├ CPU",
+            "keyColor": "red"
+        },
+        {
+            "type": "gpu",
+            "key": "│ ├󰍛 GPU",
+            "keyColor": "red"
+        },
+        {
+            "type": "memory",
+            "key": "│ ├󰍛 Memory",
+            "keyColor": "red"
+        },
+        {
+            "type": "disk",
+            "key": "└ └ Disk",
+            "keyColor": "red"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[31m└────────────────────────────────────────────────────┘"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[31m┌──────────────────────Software──────────────────────┐"
+        },
+        {
+            "type": "os",
+            "key": "│ ├OS",
+            "keyColor": "red"
+        },
+        {
+            "type": "kernel",
+            "key": "│ ├ Kernel",
+            "keyColor": "red"
+        },
+        {
+            "type": "bios",
+            "key": "│ ├ Bios",
+            "keyColor": "red"
+        },
+        {
+            "type": "packages",
+            "key": "│ ├󰏖 Packages",
+            "keyColor": "red"
+        },
+        {
+            "type": "shell",
+            "key": "└ └ Shell",
+            "keyColor": "red"
+        },
+        "break",
+        {
+            "type": "de",
+            "key": " DE",
+            "keyColor": "red"
+        },
+        {
+            "type": "lm",
+            "key": "│ ├ LM",
+            "keyColor": "red"
+        },
+        {
+            "type": "wm",
+            "key": "│ ├ WM",
+            "keyColor": "red"
+        },
+        {
+            "type": "wmtheme",
+            "key": "│ ├󰉼 WMTheme",
+            "keyColor": "red"
+        },
+        {
+            "type": "terminal",
+            "key": "└ └ Terminal",
+            "keyColor": "red"
+        },
+        {
+            "type": "user",
+            "key": "│ ├👤 User",
+            "keyColor": "red"
+        },
+        
+        {
+            "type": "custom",
+            "format": "\u001b[31m└────────────────────────────────────────────────────┘"
+        },
+        "break"
+    ]
+}

@@ -1,0 +1,13 @@
+2025-04-13 13:52:50.100 [info] Started local extension host with pid 4970.
+2025-04-13 13:52:52.831 [info] [perf] Render performance baseline is 22ms
+2025-04-13 14:37:15.116 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at Sg.getLineMaxColumn (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:253:144)
+    at vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2001:13639
+    at HI._computeFn (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:26325)
+    at HI._recompute (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:28296)
+    at HI.get (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:27919)
+    at HI.reportChanges (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:17032)
+    at nse.endUpdate (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:24811)
+    at HI.endUpdate (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:29207)
+    at UW.finish (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:19015)
+    at Hi (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:31:18372)

@@ -1,0 +1,77 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "8ae0a232bc0646cc318f9aac6ad054a71e7c1a8b37e475e9cea6e6b59e2e552e",
+    "telemetry.devDeviceId": "42ea78cb-a91d-4104-a7f3-27125cce2968",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/hibrys/See"
+            },
+            {
+                "folderUri": "file:///home/hibrys/Solido"
+            },
+            {
+                "folderUri": "file:///home/hibrys/.config"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/hibrys/.config": "__default__profile__",
+            "file:///mnt/hd/Aleatorio/arch%20cfg": "__default__profile__",
+            "file:///mnt/hd/Cursos/Alura/JavaScript": "__default__profile__",
+            "file:///home/hibrys/ProgressPath": "__default__profile__",
+            "file:///home/hibrys/See": "__default__profile__",
+            "file:///home/hibrys/Programacao/Alura/JavaScript": "__default__profile__",
+            "file:///home/hibrys/Solido": "__default__profile__",
+            "file:///home/hibrys/Hyprfiles": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#000000",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#ffffff",
+            "background": "#000000",
+            "editorBackground": "#000000",
+            "titleBarBackground": "#000000",
+            "titleBarBorder": "#000000",
+            "activityBarBackground": "#000000",
+            "activityBarBorder": "#000000",
+            "sideBarBackground": "#000000",
+            "sideBarBorder": "#000000",
+            "statusBarBackground": "#000000",
+            "statusBarNoFolderBackground": "#68217a"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 295,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/hibrys/.config",
+            "backupPath": "/home/hibrys/.config/VSCodium/Backups/8d9fad98b1f14a15ec442915c82ecfd2",
+            "uiState": {
+                "mode": 1,
+                "x": 968,
+                "y": 58,
+                "width": 929,
+                "height": 999
+            }
+        },
+        "openedWindows": []
+    }
+}

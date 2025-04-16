@@ -1,0 +1,7 @@
+{
+    "terminal.integrated.env.linux": {},
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "SkillAvid Pure Black",
+    "console-ninja.featureSet": "Community",
+    "liveServer.settings.donotVerifyTags": true
+}

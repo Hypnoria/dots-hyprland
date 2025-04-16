@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sólido</title>
+  <link rel="stylesheet" href="/frontend/css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link rel="stylesheet" href="/frontend/css/index.css" />
+  <script src="/frontend/js/index.js"></script>
+  <link rel="icon" href="/frontend/public/images/Logo.svg" type="image/svg+xml" />
+</head>
+
+<body class="index">
+    <!-- Header-->
+    <header class="header">
+        <div class="header-container">
+          <div class="logo">
+            <img src="/frontend/public/images/Logo.svg" alt="Logo Solido">
+          </div>
+          <nav class="nav-links">
+            <a href="imoveis.html">Comprar</a>
+            <a href="imoveis.html">Alugar</a>
+            <a href="anunciar.html">Anuncie aqui</a>
+          </nav>
+          <div class="contact-button">
+            <a href="contato.html">Contate-nos</a>
+          </div>
+        </div>
+      </header>
+      
+      <!-- Banner -->
+      <div class="banner">
+        <div class="search-frame">
+          <div class="search-header"> <!-- Novo container para linha única -->
+            <!-- Botão Comprar (ativo por padrão) -->
+            <button class="operation-btn active" data-filter="comprar">Comprar</button>
+            
+            <!-- Botão Alugar -->
+            <button class="operation-btn" data-filter="alugar">Alugar</button>
+            
+            <!-- Barra de Pesquisa Integrada -->
+            <div class="search-bar">
+              <input type="text" placeholder="Onde? ou ID do Imóvel">
+              <select>
+                <option>Tipo de Imóvel</option>
+                <option>Casa</option>
+                <option>Apartamento</option>
+              </select>
+              <select>
+                <option>Dormitórios</option>
+                <option>1</option>
+                <option>2</option>
+              </select>
+              <select>
+                <option>Faixa de Preço</option>
+                <option>Até R$ 500.000</option>
+                <option>R$ 500.000 - 1.000.000</option>
+              </select>
+              <button class="search-button">🔍</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <!-- Imóveis em destaque -->
+  <section class="destaque-casas">
+    <h2 class="titulo-destaque">Imóveis em destaque!</h2>
+    <div class="grid-casas">
+      <div class="casa-card"></div>
+      <div class="casa-card"></div>
+      <div class="casa-card"></div>
+      <div class="casa-card"></div>
+    </div>
+  </section>  
+  
+  <!-- Cards -->
+  <section class="cards-container">
+    <h2 class="cards-title">Escolha seu novo lar!</h2>
+    <div class="cards-wrapper">
+      <div class="card">Casa</div>
+      <div class="card">Apartamento</div>
+      <div class="card">Terreno</div>
+      <div class="card">Empreendimento</div>
+    </div>
+  </section>
+  
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-logo"></div>
+  
+        <!-- Saiba mais -->
+    <div class="footer-section">
+      <h4>Saiba mais</h4>
+      <p><a href="sobre.html">Sobre a sólido</a></p>
+      <p><a href="contato.html">Entre em contato</a></p>
+    </div>
+  
+        <!-- Imoveis -->
+    <div class="footer-section">
+      <h4>Imóveis</h4>
+        <p>Venda seu imóvel</p>
+        <p>Alugue seu imóvel</p>
+        <p><a href="imoveis.html">Imóveis à venda</a></p>
+        <p>Imóveis para locação</p>
+    </div>
+  
+    <!-- Social -->
+    <div class="footer-section">
+      <h4>Siga a sólido nas redes sociais!</h4>
+      <div class="social-wrapper">
+        <div class="wrapper">
+          <a href="#" class="button">
+            <div class="icon">
+              <i class="fab fa-facebook-f"></i>
+            </div>
+            <span>Facebook</span>
+          </a>
+          <a href="https://instagram.com/solidoemp" class="button instagram" target="_blank" rel="noopener noreferrer">
+            <div class="icon">
+              <i class="fab fa-instagram"></i>
+            </div>
+            <span>Instagram</span>
+          </a>
+        </div>        
+      </div>
+    </div>
+
+</footer>
+</body>
+<!-- Desenvolvido por Hypnoria-->
+</html>

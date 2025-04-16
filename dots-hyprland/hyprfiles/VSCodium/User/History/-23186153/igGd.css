@@ -1,0 +1,13 @@
+  /* Classe para esconder o banner ao rolar */
+  .search-banner.hidden {
+    transform: translateY(-100%);
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a::after {
+    content: none !important;
+  }

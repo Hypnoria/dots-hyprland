@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    margin-bottom: 8px;
+    font-size: 28px;
+  }
+  
+  .subinfo {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .galeria {
+    position: relative;
+    text-align: center;
+  }
+  
+  .galeria img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .seta {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.4);
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .seta:hover {
+    background: rgba(0,0,0,0.6);
+  }
+  
+  .esquerda {
+    left: 10px;
+  }
+  
+  .direita {
+    right: 10px;
+  }
+  
+  .miniaturas {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .miniaturas img {
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: border 0.2s ease;
+  }
+  
+  .miniaturas img:hover {
+    border: 2px solid #007bff;
+  }
+  
+  .caracteristicas {
+    margin-top: 30px;
+  }
+  
+  .caracteristicas h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .caracteristicas ul {
+    list-style: none;
+    padding: 0;
+    line-height: 1.8;
+  }
+  
+  .caracteristicas li::before {
+    content: '✔️ ';
+    margin-right: 8px;
+  }
+  

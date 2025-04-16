@@ -1,0 +1,31 @@
+file:///home/hibrys/Solido/frontend/views/imovel.html {"mtime":1744667691719,"ctime":1744667193806,"size":875,"etag":"3e42drilps7","orphaned":false,"typeId":""}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imovel</title>
+    <link rel="stylesheet" href="/frontend/css/styles.css" />
+</head>
+<body class="index">
+    <!-- Header-->
+    <header class="header">
+        <div class="header-container">
+          <a href="index.html">
+            <div class="logo">
+              <img src="/frontend/public/images/logo/Logo.svg" alt="Logo Solido">
+            </div>
+          </a>
+          <nav class="nav-links">
+            <a href="imoveis.html">Comprar</a>
+            <a href="imoveis.html">Alugar</a>
+            <a href="anunciar.html">Anuncie aqui</a>
+          </nav>
+          <div class="contact-button">
+            <a href="contato.html">Contate-nos</a>
+          </div>
+        </div>
+      </header> 
+      
+</body>
+</html>

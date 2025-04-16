@@ -1,0 +1,53 @@
+2025-04-12 12:17:17.391 [info] Extension host with pid 10686 started
+2025-04-12 12:17:17.391 [info] Skipping acquiring lock for /home/hibrys/.config/VSCodium/User/workspaceStorage/a44a96b6974dd9bcc9b9a26ed3e8baa5.
+2025-04-12 12:17:17.620 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-12 12:17:17.636 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-04-12 12:17:18.069 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-12 12:17:18.072 [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer-2, startup: true, activationEvent: '*'
+2025-04-12 12:17:18.086 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-04-12 12:17:18.119 [error] Activating extension CoenraadS.bracket-pair-colorizer-2 failed due to an error:
+2025-04-12 12:17:18.119 [error] Error: Cannot find module '/usr/share/vscodium/resources/app/node_modules.asar/vscode-textmate'
+Require stack:
+- /home/hibrys/.vscode-oss/extensions/coenraads.bracket-pair-colorizer-2-0.1.4-universal/out/src/textMateLoader.js
+- /home/hibrys/.vscode-oss/extensions/coenraads.bracket-pair-colorizer-2-0.1.4-universal/out/src/settings.js
+- /home/hibrys/.vscode-oss/extensions/coenraads.bracket-pair-colorizer-2-0.1.4-universal/out/src/documentDecorationManager.js
+- /home/hibrys/.vscode-oss/extensions/coenraads.bracket-pair-colorizer-2-0.1.4-universal/out/src/extension.js
+- /usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1232:15)
+	at n._resolveFilename (node:electron/js2c/utility_init:2:16068)
+	at t._resolveFilename (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:182:28855)
+	at Module._load (node:internal/modules/cjs/loader:1058:27)
+	at c._load (node:electron/js2c/node_init:2:16955)
+	at e._load (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:12065)
+	at t._load (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:182:28573)
+	at i._load (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:22523)
+	at Module.require (node:internal/modules/cjs/loader:1318:19)
+	at require (node:internal/modules/helpers:179:18)
+	at TextMateLoader.getNodeModule (/home/hibrys/.vscode-oss/extensions/coenraads.bracket-pair-colorizer-2-0.1.4-universal/out/src/textMateLoader.js:106:16)
+	at TextMateLoader.loadTextMate (/home/hibrys/.vscode-oss/extensions/coenraads.bracket-pair-colorizer-2-0.1.4-universal/out/src/textMateLoader.js:109:21)
+	at new TextMateLoader (/home/hibrys/.vscode-oss/extensions/coenraads.bracket-pair-colorizer-2-0.1.4-universal/out/src/textMateLoader.js:18:27)
+	at new Settings (/home/hibrys/.vscode-oss/extensions/coenraads.bracket-pair-colorizer-2-0.1.4-universal/out/src/settings.js:10:31)
+	at new DocumentDecorationManager (/home/hibrys/.vscode-oss/extensions/coenraads.bracket-pair-colorizer-2-0.1.4-universal/out/src/documentDecorationManager.js:9:25)
+	at activate (/home/hibrys/.vscode-oss/extensions/coenraads.bracket-pair-colorizer-2-0.1.4-universal/out/src/extension.js:6:37)
+	at V0._callActivateOptional (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:18635)
+	at V0._callActivate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:18304)
+	at file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:16238
+	at async p0._activate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:16323)
+	at async p0._waitForDepsThenActivate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:16265)
+	at async p0._initialize (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:15628)
+2025-04-12 12:17:18.126 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-12 12:17:18.179 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-12 12:17:18.223 [info] Eager extensions activated
+2025-04-12 12:17:18.237 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 12:17:18.239 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 12:17:18.254 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 12:17:18.281 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 12:17:18.336 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 12:17:18.347 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 12:17:18.350 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 12:17:18.354 [info] ExtensionService#_doActivateExtension WallabyJs.console-ninja, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 12:17:18.411 [info] ExtensionService#_doActivateExtension WallabyJs.wallaby-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 12:17:18.692 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-12 12:17:18.697 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-12 12:17:18.737 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-12 12:17:23.834 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'

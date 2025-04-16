@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 40px;
+    background-color: #f7f7f7;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .imovel-card {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .imovel-card:hover {
+    transform: scale(1.01);
+  }
+  
+  .imovel-imagem {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .imovel-info {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+  }
+  
+  .imovel-titulo {
+    font-size: 28px;
+    margin-bottom: 12px;
+    color: #222;
+  }
+  
+  .imovel-descricao {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 24px;
+    line-height: 1.5;
+  }
+  
+  .imovel-preco {
+    font-size: 22px;
+    font-weight: bold;
+    color: #d32f2f;
+    margin-bottom: 24px;
+  }
+  
+  .imovel-acoes {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-ver {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-ver:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-contato {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .btn-contato:hover {
+    background-color: #1e7e34;
+  }
+  

@@ -1,0 +1,29 @@
+  /* Classe para esconder o banner ao rolar */
+  .search-banner.hidden {
+    transform: translateY(-100%);
+  }
+
+  .logo {
+    flex: 0 0 auto; 
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 30px; 
+  }
+  
+  
+  .logo img {
+    width: 100px; 
+    height: auto;
+    max-height: 150px; 
+    object-fit: contain; 
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a::after {
+    content: none !important;
+  }
+

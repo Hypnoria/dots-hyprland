@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Ponto Comercial - Parque Campolim</title>
+  <link rel="stylesheet" href="/frontend/css/imovel.css">
+  <script src="/frontend/js/imovel.js"></script>i
+</head>
+<body>
+  <main class="container">
+    <h1>Ponto comercial no Parque Campolim – Sorocaba</h1>
+    <p class="subinfo">📍 Parque Campolim, Sorocaba - SP | 🏠 Código: 8507</p>
+
+    <div class="galeria">
+      <button class="seta esquerda" onclick="moverSlide(-1)">❮</button>
+      <img id="slide" src="images/imagem1.jpg" alt="Imagem do imóvel">
+
+      <!-- Bloco de preço e contato -->
+      <div class="info-venda">
+        <p class="tipo-venda">VENDA</p>
+        <p class="preco">R$ 650.000,00</p>
+        <p class="area">Área total: 62 m²<br>Área útil: 62 m²</p>
+        <p class="aviso">Valores sujeitos a alterações sem aviso prévio</p>
+      
+        <button class="btn-mensagem">📨 Envie uma mensagem</button>
+        <button class="btn-whatsapp">💬 Fale com o corretor</button>
+      </div>
+      
+      <button class="seta direita" onclick="moverSlide(1)">❯</button>
+    </div>
+
+    <div class="miniaturas">
+      <img src="images/imagem1.jpg" onclick="selecionarSlide(0)">
+      <img src="images/imagem2.jpg" onclick="selecionarSlide(1)">
+      <img src="images/imagem3.jpg" onclick="selecionarSlide(2)">
+    </div>
+
+    <section class="caracteristicas">
+      <h2>Características</h2>
+      <ul>
+        <li>🏢 90m² de área útil</li>
+        <li>🚻 2 banheiros</li>
+        <li>🅿️ 1 vaga de garagem</li>
+        <li>📦 Depósito nos fundos</li>
+        <li>🛍 Ideal para loja, boutique ou escritório</li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+2025-04-12 10:57:31.045 [info] Extension host with pid 2706 started
+2025-04-12 10:57:31.045 [info] Skipping acquiring lock for /home/hibrys/.config/VSCodium/User/workspaceStorage/a44a96b6974dd9bcc9b9a26ed3e8baa5.
+2025-04-12 10:57:31.284 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-12 10:57:31.383 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-12 10:57:31.385 [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer-2, startup: true, activationEvent: '*'
+2025-04-12 10:57:31.397 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-04-12 10:57:31.427 [error] Activating extension CoenraadS.bracket-pair-colorizer-2 failed due to an error:
+2025-04-12 10:57:31.427 [error] Error: Cannot find module '/usr/share/vscodium/resources/app/node_modules.asar/vscode-textmate'
+Require stack:
+- /home/hibrys/.vscode-oss/extensions/coenraads.bracket-pair-colorizer-2-0.1.4-universal/out/src/textMateLoader.js
+- /home/hibrys/.vscode-oss/extensions/coenraads.bracket-pair-colorizer-2-0.1.4-universal/out/src/settings.js
+- /home/hibrys/.vscode-oss/extensions/coenraads.bracket-pair-colorizer-2-0.1.4-universal/out/src/documentDecorationManager.js
+- /home/hibrys/.vscode-oss/extensions/coenraads.bracket-pair-colorizer-2-0.1.4-universal/out/src/extension.js
+- /usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1232:15)
+	at n._resolveFilename (node:electron/js2c/utility_init:2:16068)
+	at t._resolveFilename (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:182:28855)
+	at Module._load (node:internal/modules/cjs/loader:1058:27)
+	at c._load (node:electron/js2c/node_init:2:16955)
+	at e._load (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:12065)
+	at t._load (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:182:28573)
+	at i._load (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:22523)
+	at Module.require (node:internal/modules/cjs/loader:1318:19)
+	at require (node:internal/modules/helpers:179:18)
+	at TextMateLoader.getNodeModule (/home/hibrys/.vscode-oss/extensions/coenraads.bracket-pair-colorizer-2-0.1.4-universal/out/src/textMateLoader.js:106:16)
+	at TextMateLoader.loadTextMate (/home/hibrys/.vscode-oss/extensions/coenraads.bracket-pair-colorizer-2-0.1.4-universal/out/src/textMateLoader.js:109:21)
+	at new TextMateLoader (/home/hibrys/.vscode-oss/extensions/coenraads.bracket-pair-colorizer-2-0.1.4-universal/out/src/textMateLoader.js:18:27)
+	at new Settings (/home/hibrys/.vscode-oss/extensions/coenraads.bracket-pair-colorizer-2-0.1.4-universal/out/src/settings.js:10:31)
+	at new DocumentDecorationManager (/home/hibrys/.vscode-oss/extensions/coenraads.bracket-pair-colorizer-2-0.1.4-universal/out/src/documentDecorationManager.js:9:25)
+	at activate (/home/hibrys/.vscode-oss/extensions/coenraads.bracket-pair-colorizer-2-0.1.4-universal/out/src/extension.js:6:37)
+	at V0._callActivateOptional (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:18635)
+	at V0._callActivate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:18304)
+	at file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:16238
+	at async p0._activate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:16323)
+	at async p0._waitForDepsThenActivate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:16265)
+	at async p0._initialize (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:15628)
+2025-04-12 10:57:31.428 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-12 10:57:31.487 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-12 10:57:31.551 [info] Eager extensions activated
+2025-04-12 10:57:31.577 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 10:57:31.579 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 10:57:31.599 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 10:57:31.634 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 10:57:31.698 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 10:57:31.711 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 10:57:31.716 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 10:57:31.723 [info] ExtensionService#_doActivateExtension WallabyJs.console-ninja, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 10:57:31.782 [info] ExtensionService#_doActivateExtension WallabyJs.wallaby-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 10:57:32.149 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-12 10:57:32.157 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-12 10:57:32.206 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-12 10:57:37.311 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-04-12 11:02:38.349 [error] [vscode.typescript-language-features] provider FAILED
+2025-04-12 11:02:38.349 [error] Error: <semantic> TypeScript Server Error (5.8.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:185022:11)
+    at ScriptInfo.getDefaultProject (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:185725:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:189216:36)
+    at _ProjectService.ensureDefaultProjectForFile (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:189211:103)
+    at IpcIOSession.getFileAndProjectWorker (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:194742:77)
+    at IpcIOSession.getFileAndProject (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:194728:17)
+    at IpcIOSession.getEncodedSemanticClassifications (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:193987:36)
+    at encodedSemanticClassifications-full (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:193224:43)
+    at /usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:195676:15
+    at IpcIOSession.executeWithRequestId (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:195665:14)
+    at IpcIOSession.executeCommand (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:195674:29)
+    at IpcIOSession.onMessage (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:195722:68)
+    at process.<anonymous> (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/usr/share/vscodium/resources/app/extensions/typescript-language-features/dist/extension.js:2:492476)
+	at y.dispatchResponse (/usr/share/vscodium/resources/app/extensions/typescript-language-features/dist/extension.js:2:486446)
+	at y.dispatchMessage (/usr/share/vscodium/resources/app/extensions/typescript-language-features/dist/extension.js:2:485244)
+	at ChildProcess.<anonymous> (/usr/share/vscodium/resources/app/extensions/typescript-language-features/dist/extension.js:2:484737)
+	at ChildProcess.emit (node:events:518:28)
+	at emit (node:internal/child_process:950:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-04-12 11:02:39.208 [error] Error: <semantic> TypeScript Server Error (5.8.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:185022:11)
+    at ScriptInfo.getDefaultProject (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:185725:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:189216:36)
+    at _ProjectService.ensureDefaultProjectForFile (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:189211:103)
+    at IpcIOSession.getFileAndProjectWorker (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:194742:77)
+    at IpcIOSession.getProjectInfoWorker (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:194513:30)
+    at IpcIOSession.getProjectInfo (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:194503:17)
+    at projectInfo (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:193356:43)
+    at /usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:195676:15
+    at IpcIOSession.executeWithRequestId (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:195665:14)
+    at IpcIOSession.executeCommand (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:195674:29)
+    at IpcIOSession.onMessage (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:195722:68)
+    at process.<anonymous> (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/usr/share/vscodium/resources/app/extensions/typescript-language-features/dist/extension.js:2:492476)
+	at y.dispatchResponse (/usr/share/vscodium/resources/app/extensions/typescript-language-features/dist/extension.js:2:486446)
+	at y.dispatchMessage (/usr/share/vscodium/resources/app/extensions/typescript-language-features/dist/extension.js:2:485244)
+	at ChildProcess.<anonymous> (/usr/share/vscodium/resources/app/extensions/typescript-language-features/dist/extension.js:2:484737)
+	at ChildProcess.emit (node:events:518:28)
+	at emit (node:internal/child_process:950:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-04-12 11:02:39.350 [error] Error: <semantic> TypeScript Server Error (5.8.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:185022:11)
+    at ScriptInfo.getDefaultProject (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:185725:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:189216:36)
+    at _ProjectService.ensureDefaultProjectForFile (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:189211:103)
+    at IpcIOSession.getFileAndProjectWorker (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:194742:77)
+    at IpcIOSession.getFileAndProject (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:194728:17)
+    at IpcIOSession.getEncodedSemanticClassifications (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:193987:36)
+    at encodedSemanticClassifications-full (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:193224:43)
+    at /usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:195676:15
+    at IpcIOSession.executeWithRequestId (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:195665:14)
+    at IpcIOSession.executeCommand (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:195674:29)
+    at IpcIOSession.onMessage (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/typescript.js:195722:68)
+    at process.<anonymous> (/usr/share/vscodium/resources/app/extensions/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/usr/share/vscodium/resources/app/extensions/typescript-language-features/dist/extension.js:2:492476)
+	at y.dispatchResponse (/usr/share/vscodium/resources/app/extensions/typescript-language-features/dist/extension.js:2:486446)
+	at y.dispatchMessage (/usr/share/vscodium/resources/app/extensions/typescript-language-features/dist/extension.js:2:485244)
+	at ChildProcess.<anonymous> (/usr/share/vscodium/resources/app/extensions/typescript-language-features/dist/extension.js:2:484737)
+	at ChildProcess.emit (node:events:518:28)
+	at emit (node:internal/child_process:950:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-04-12 11:02:40.953 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-04-12 11:04:42.329 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
