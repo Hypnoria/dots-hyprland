@@ -46,7 +46,6 @@ cp -r "$HYPRFILES_DIR/cava" ~/.config/
 cp -r "$HYPRFILES_DIR/fastfetch" ~/.config/
 cp -r "$HYPRFILES_DIR/hypr" ~/.config/
 cp -r "$HYPRFILES_DIR/rofi" ~/.config/
-cp -r "$HYPRFILES_DIR/VSCodium" ~/.config/
 cp -r "$HYPRFILES_DIR/waybar" ~/.config/
 
 # Set ownership
