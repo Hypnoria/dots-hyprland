@@ -1,5 +1,0 @@
-2025-04-15 12:20:34.324 [info] Started local extension host with pid 31220.
-2025-04-15 12:20:37.114 [info] [perf] Render performance baseline is 21ms
-2025-04-15 12:37:20.497 [warning] [backup tracker] suspended, ignoring unregister event file:///home/hibrys/.config/discord/0.0.89/modules/discord_desktop_core/package.json 
-2025-04-15 12:37:20.497 [warning] [backup tracker] suspended, ignoring unregister event file:///home/hibrys/.config/vivaldi/Default/Extensions/ojkchikaholjmcnefhjlbohackpeeknd/8.9.3_0/ptk/packages/jose/browser/package.json 
-2025-04-15 12:37:20.497 [warning] [backup tracker] suspended, ignoring unregister event file:///home/hibrys/.config/obs-studio/plugin_config/rtmp-services/package.json 

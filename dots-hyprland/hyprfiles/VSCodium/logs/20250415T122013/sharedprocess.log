@@ -1,4 +1,0 @@
-2025-04-15 12:20:19.710 [info] Getting Manifest... wallabyjs.console-ninja
-2025-04-15 12:20:19.711 [info] Getting Manifest... wallabyjs.wallaby-vscode
-2025-04-15 12:20:21.191 [info] Installing extension: wallabyjs.wallaby-vscode {"productVersion":{"version":"1.98.2","date":"2025-03-24T05:06:48.130Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/hibrys/.vscode-oss/extensions/extensions.json","path":"/home/hibrys/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}
-2025-04-15 12:20:21.203 [info] Installing extension: wallabyjs.console-ninja {"productVersion":{"version":"1.98.2","date":"2025-03-24T05:06:48.130Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/hibrys/.vscode-oss/extensions/extensions.json","path":"/home/hibrys/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}

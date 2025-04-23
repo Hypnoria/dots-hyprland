@@ -1,4 +1,0 @@
-  /* Classe para esconder o banner ao rolar */
-  .searchBanner.hidden {
-    transform: translateY(-100%);
-  }
