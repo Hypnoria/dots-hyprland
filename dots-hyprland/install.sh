@@ -45,12 +45,14 @@ cp -r "$HYPRFILES_DIR/btop" ~/.config/
 cp -r "$HYPRFILES_DIR/cava" ~/.config/
 cp -r "$HYPRFILES_DIR/fastfetch" ~/.config/
 cp -r "$HYPRFILES_DIR/hypr" ~/.config/
+cp -r "$HYPRFILES_DIR/kitty" ~/.config/
 cp -r "$HYPRFILES_DIR/rofi" ~/.config/
 cp -r "$HYPRFILES_DIR/waybar" ~/.config/
 
 # Set ownership
 echo "Setting permissions..."
 sudo chown -R "$(whoami)":"$(whoami)" ~/.config/
+sudo systemctl enable NetworkManager.service
 
 # Done
 echo "Installation and configuration completed successfully!"

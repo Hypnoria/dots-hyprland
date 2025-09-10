@@ -18,9 +18,6 @@ if ! [[ "$index" =~ ^[0-9]+$ ]] || [[ "$index" -ge "$wallpaper_count" ]]; then
 fi
 
 wallpaper="${wallpapers[$index]}"
-next_index=$(( (index + 1) % wallpaper_count ))
-
-echo "$next_index" > "$index_file"
 
 hyprctl hyprpaper preload "$wallpaper"
 hyprctl hyprpaper wallpaper "$primary_monitor,$wallpaper"

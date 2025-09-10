@@ -10,16 +10,34 @@
     "modules-center": [
         "clock"
     ],
-    "modules-right": [
-        "custom/fastfetch_cava",
-        "pulseaudio",
-        "network"
-    ],
+"modules-right": [
+    "custom/fastfetch_cava",
+    "network",
+    "pulseaudio",
+    "battery"
+],
     "custom/power": {
         "format": "",
         "tooltip": false,
         "on-click": "systemctl poweroff"
     },
+
+"battery": {
+    "format": "{icon} {capacity}%",
+    "format-charging": " {capacity}%",
+    "format-plugged": " {capacity}%",
+    "format-alt": "{time} restante",
+    "interval": 30,
+    "format-icons": [
+        "",  
+        "",  
+        "",  
+        "",  
+        ""   
+    ],
+    "tooltip": true
+},
+
     "custom/wallpaper": {
         "format": " ",
         "tooltip": false,
@@ -36,18 +54,19 @@
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": "{:%Y-%m-%d}"
     },
-    "pulseaudio": {
-        "format": "{icon} {volume}% ",
-        "format-muted": " {volume}%",
-        "format-icons": {
-            "default": [
-                "",
-                "",
-                ""
-            ]
-        },
-        "on-click": "pavucontrol"
+"pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-muted": " {volume}%",
+    "format-icons": {
+        "default": [
+            "",
+            "",  
+            ""  
+        ]
     },
+    "on-click": "pavucontrol"
+},
+
     "network": {
         "format": "",
         "format-disconnected": "",
